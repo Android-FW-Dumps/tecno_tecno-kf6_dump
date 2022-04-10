@@ -1,0 +1,14 @@
+# sys_tssi_32_ago_tecno-user 11 RP1A.200720.011 222897 release-keys
+- manufacturer: 
+- platform: mt6761
+- codename: TECNO-KF6
+- flavor: sys_tssi_32_ago_tecno-user
+- release: 11
+- id: RP1A.200720.011
+- incremental: 220110V387
+- tags: release-keys
+- fingerprint: TECNO/KF6-GL/TECNO-KF6:11/RP1A.200720.011/220110V343:user/release-keys
+- is_ab: true
+- brand: TECNO
+- branch: sys_tssi_32_ago_tecno-user-11-RP1A.200720.011-222897-release-keys
+- repo: tecno_tecno-kf6_dump

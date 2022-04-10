@@ -1,0 +1,12 @@
+
+com.transsnetfinancial.palmcredit
+com.hatsune.eagleee
+id.mjs.etalaseapp
+com.aman.milov
+com.afmobi.boomplayer
+com.nati.cal
+com.facebook.lite
+com.smartlife.nebula
+com.sbimv.mvicalls
+com.transsnet.palmpay
+com.vskit.lite

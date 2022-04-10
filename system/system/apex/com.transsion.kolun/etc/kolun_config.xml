@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SystemConfig version="1">
+    <plugin category="MODULE">
+        <name>KolunLiving</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.living.KolunLiving</clasz>
+        <libName>living_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="MODULE">
+        <name>KolunAbility</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.ability.KolunAbility</clasz>
+        <libName>ability_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="MODULE">
+        <name>SmartScene</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.scene.SmartScene</clasz>
+        <libName>scene_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_COLLECTOR">
+        <name>AndroidStatusCollector</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.core.datacollector.AndroidStatusCollector</clasz>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_COLLECTOR">
+        <name>CloudDataCollector</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.core.datacollector.CloudDataCollector</clasz>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_COLLECTOR">
+        <name>LocationCollector</name>
+        <state>0</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.locationcollector.LocationCollector</clasz>
+        <libName>locationcollector_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_COLLECTOR">
+        <name>UserActivityCollector</name>
+        <state>0</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.useractivitycollector.UserActivityCollector</clasz>
+        <libName>useractivitycollector_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_ANALYSIS">
+        <name>SampleAnalysis</name>
+        <state>1</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.sampleanalysis.SampleAnalysis</clasz>
+        <libName>sampleanalysis_1.jar</libName>
+        <version>1</version>
+    </plugin>
+    <plugin category="DATA_ANALYSIS">
+        <name>UserContextAware</name>
+        <state>0</state> <!-- 0 is disable, 1 is enable -->
+        <clasz>com.transsion.kolun.plugin.contextaware.UserContextAware</clasz>
+        <libName>contextaware_1.jar</libName>
+        <version>1</version>
+    </plugin>
+</SystemConfig>
